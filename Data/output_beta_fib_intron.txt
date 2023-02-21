@@ -1,0 +1,268 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.490)
+
+
+Panthera_pardus gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Panthera_uncia  gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Panthera        gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Neofelis_nebulo gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Panthera_tigris gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagcctctatggat
+Prionailurus_be gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Felis_catus     gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Felis_bieti     gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Lynx_lynx       gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Otocolobus_manu gggacatgatggctggtatgtattgtgtttttccctcctgctttaaaagccactatggat
+Catopuma_temmin gggacatgatggctggtatgtattgtgttttcccctcctgctttaaaagccactatggat
+Paguma_larvata  gggacatgatggctggtaagtatcgtgtttttctctcccgctttgaaagccactaccgct
+                ****************** ****.*******.*.****.*****.****** ***. * *
+
+Panthera_pardus gttgttattagagtcattaa----------------------------------------
+Panthera_uncia  gttgttattagagtcattaa----------------------------------------
+Panthera        gttgttattagagtcattaa----------------------------------------
+Neofelis_nebulo gttgttattagagtcattaa----------------------------------------
+Panthera_tigris gttgttattagagtcattaa----------------------------------------
+Prionailurus_be gttgttattagaatcattaa----------------------------------------
+Felis_catus     gttgttattagaatcattaa----------------------------------------
+Felis_bieti     gttgttattagaatcattaa----------------------------------------
+Lynx_lynx       gttgttattagaatcattaa----------------------------------------
+Otocolobus_manu gttgttattagaatcattaa----------------------------------------
+Catopuma_temmin gttg-tattagaatcattaatgatagctcatgttattttttttttaattttttttcaacg
+Paguma_larvata  gttgttatcagaatcatcaa----------------------------------------
+                **** ***.***.****.**                                        
+
+Panthera_pardus ------------------------------------------------------------
+Panthera_uncia  ------------------------------------------------------------
+Panthera        ------------------------------------------------------------
+Neofelis_nebulo ------------------------------------------------------------
+Panthera_tigris ------------------------------------------------------------
+Prionailurus_be ------------------------------------------------------------
+Felis_catus     ------------------------------------------------------------
+Felis_bieti     ------------------------------------------------------------
+Lynx_lynx       ------------------------------------------------------------
+Otocolobus_manu ------------------------------------------------------------
+Catopuma_temmin tttatttatttatttgggacagagagagacagagcatgaacgggggaggggcagagagag
+Paguma_larvata  ------------------------------------------------------------
+                                                                            
+
+Panthera_pardus ------------------------------------------------------------
+Panthera_uncia  ------------------------------------------------------------
+Panthera        ------------------------------------------------------------
+Neofelis_nebulo ------------------------------------------------------------
+Panthera_tigris ------------------------------------------------------------
+Prionailurus_be ------------------------------------------------------------
+Felis_catus     ------------------------------------------------------------
+Felis_bieti     ------------------------------------------------------------
+Lynx_lynx       ------------------------------------------------------------
+Otocolobus_manu ------------------------------------------------------------
+Catopuma_temmin agggagacacagaatcggaaccaggctccaggctctgagccatcagcccagagcccgacg
+Paguma_larvata  ------------------------------------------------------------
+                                                                            
+
+Panthera_pardus ------------------------------------------------------------
+Panthera_uncia  ------------------------------------------------------------
+Panthera        ------------------------------------------------------------
+Neofelis_nebulo ------------------------------------------------------------
+Panthera_tigris ------------------------------------------------------------
+Prionailurus_be ------------------------------------------------------------
+Felis_catus     ------------------------------------------------------------
+Felis_bieti     ------------------------------------------------------------
+Lynx_lynx       ------------------------------------------------------------
+Otocolobus_manu ------------------------------------------------------------
+Catopuma_temmin cggggctcgaactcacggaccgagagatcgtgacctggctgaagtcggacgcttaaccga
+Paguma_larvata  ------------------------------------------------------------
+                                                                            
+
+Panthera_pardus -------------------tgatagctcatgttattaatagctatcatttcttgggcccc
+Panthera_uncia  -------------------tgatagctcatgttattaatagctatcatttcttgggcccc
+Panthera        -------------------tgatagctcatgttattaatagctatcatttcttgggcccc
+Neofelis_nebulo -------------------tgatagctcatgttattaacagctgtcatttcttgggcccc
+Panthera_tigris -------------------tgatagctcatgttattaacagctgtcatttcttgggcccc
+Prionailurus_be -------------------tgatagctcatgttattaatagctatcatttcttgggccct
+Felis_catus     -------------------tgatagctcatgttattaatagctatcatttcttgggccct
+Felis_bieti     -------------------tgatagctcatgttattaatagctatcatttcttgggccct
+Lynx_lynx       -------------------tgatagctcatgttattaatagctatcatttcttgagcccc
+Otocolobus_manu -------------------tgatagctcatgttattaatagctatcatttcttgggccct
+Catopuma_temmin ctgcgccacccaggcgccccgatagctcatgttattaatagctatcatttcttgggccct
+Paguma_larvata  -------------------tgatacctcctgttattaataactctcatttcttgggcgct
+                                   .**** *** *********.*.** **********.** *.
+
+Panthera_pardus taccgtgtgttagccactgtacgaagctctttatctatcactctaagacatttccactat
+Panthera_uncia  taccgtgtgttagccactgtacgaagctctttatctatcactctaagacatttccactat
+Panthera        tactgtgtgttagccactgtaggaagctctttatctatcactctaagatatttccactat
+Neofelis_nebulo taccgtgtgttagccactgtacgaagctctttatatatcactctaagacatttccactat
+Panthera_tigris taccgtgtgttagccactgtaggaagctctttatctatcactctaagacatttccactat
+Prionailurus_be tgccgtgtgttagccaccgtacgaagctctttatatatcactctaagacattcccactat
+Felis_catus     taccgtgtgttagccaccgtacgaagctctttgtatatcactctaagacatttccactat
+Felis_bieti     taccgtgtgttagccaccgtacgaagctctttatatatcactctaagacatttccactat
+Lynx_lynx       taccgtgtgttagccactgtacgaagctctttatatatcactctaagacatttccactat
+Otocolobus_manu taccgtgtattagccactgtacgaagctctttatatatcactctaagacatttccactat
+Catopuma_temmin taccgtgtgttagccactgtacgacgctctttatatatcactctaagacgtttccactat
+Paguma_larvata  tacggtgtgttagacactgtactaagctctttataaatcactctaaaacattgccactat
+                *.* ****.**** ***.***  * *******.*  **********.*..** *******
+
+Panthera_pardus caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Panthera_uncia  caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Panthera        caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Neofelis_nebulo caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Panthera_tigris caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Prionailurus_be caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Felis_catus     caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Felis_bieti     caggttgctattattattctcactttacagatgaagtgcagagagattaagtaattgact
+Lynx_lynx       caggttgctattattattctcactttacagatgaagtgcaaagagattaattaattgact
+Otocolobus_manu caggttgctattattattctcactttacagatgaagtgcagagagattaattaattgact
+Catopuma_temmin cgggttgctattcttattctcaccttacacatgaagtgcagagagattaagtaattgact
+Paguma_larvata  cgggttgccattattattctcaccctacagatgaagtttagagagatcaagtaacttacc
+                *.******.*** **********..**** ******* .*.******.** ***.* **.
+
+Panthera_pardus gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Panthera_uncia  gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Panthera        gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Neofelis_nebulo gaaagttatacaaccataaaatatggaactggaacgagagcacattccctttacatagtg
+Panthera_tigris gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Prionailurus_be gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacgtagtg
+Felis_catus     gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Felis_bieti     gaaagctttacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Lynx_lynx       gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Otocolobus_manu gaaagctttacaactataaaatatggaactggaacgagagcacattccctttacatagtg
+Catopuma_temmin gaaagttatacaactataaaatatggaactggaacgagagcacattccctttacgtagtg
+Paguma_larvata  caaagttatgcaactataaaatatggaactggaactagacacattccctactgagtagtg
+                 ****.* *.****.******************** ***     *.**. .*. .*****
+
+Panthera_pardus agcgtttagatacatttctgtatctatatatt----------------------------
+Panthera_uncia  agcgtttagatacatttctgtatctatatatt----------------------------
+Panthera        agcgtttagatacatttctgtatctatatatt----------------------------
+Neofelis_nebulo agcatttagataaatttctgtatctatatatt----------------------------
+Panthera_tigris agcgtttagatacatttctgtatctatatatt----------------------------
+Prionailurus_be agcgtttagataaatttctatatctatatatt----------------------------
+Felis_catus     agcgtttagataaatttctgtatctatatatt----------------------------
+Felis_bieti     agcgtttagataaatttctgtatctatatatt----------------------------
+Lynx_lynx       agcgtttagataaatttctgtatctatatatt----------------------------
+Otocolobus_manu agcgtttagataaatttctgtatctatatattctcaagtgtatatatatatatttttaat
+Catopuma_temmin agcgtttagataaatttctatatctatatatt----------------------------
+Paguma_larvata  agcgtctagatacgtttccaaatctatatatt----------------------------
+                ***.*.****** .****.. ***********                            
+
+Panthera_pardus ------------------------------------------------------------
+Panthera_uncia  ------------------------------------------------------------
+Panthera        ------------------------------------------------------------
+Neofelis_nebulo ------------------------------------------------------------
+Panthera_tigris ------------------------------------------------------------
+Prionailurus_be ------------------------------------------------------------
+Felis_catus     ------------------------------------------------------------
+Felis_bieti     ------------------------------------------------------------
+Lynx_lynx       ------------------------------------------------------------
+Otocolobus_manu ttttttttcaacatttatttatttttgggacagagagagacagagcatgaacagggggag
+Catopuma_temmin ------------------------------------------------------------
+Paguma_larvata  ------------------------------------------------------------
+                                                                            
+
+Panthera_pardus ------------------------------------------------------------
+Panthera_uncia  ------------------------------------------------------------
+Panthera        ------------------------------------------------------------
+Neofelis_nebulo ------------------------------------------------------------
+Panthera_tigris ------------------------------------------------------------
+Prionailurus_be ------------------------------------------------------------
+Felis_catus     ------------------------------------------------------------
+Felis_bieti     ------------------------------------------------------------
+Lynx_lynx       ------------------------------------------------------------
+Otocolobus_manu gggcagagagagagggagacacagaatcggaaacaggctccaggctccgagccgtcagcc
+Catopuma_temmin ------------------------------------------------------------
+Paguma_larvata  ------------------------------------------------------------
+                                                                            
+
+Panthera_pardus ------------------------------------------------------------
+Panthera_uncia  ------------------------------------------------------------
+Panthera        ------------------------------------------------------------
+Neofelis_nebulo ------------------------------------------------------------
+Panthera_tigris ------------------------------------------------------------
+Prionailurus_be ------------------------------------------------------------
+Felis_catus     ------------------------------------------------------------
+Felis_bieti     ------------------------------------------------------------
+Lynx_lynx       ------------------------------------------------------------
+Otocolobus_manu cagagcctgacgcggggctcgaactcacggaccgcgagatcgtgacctggctgaagtcgg
+Catopuma_temmin ------------------------------------------------------------
+Paguma_larvata  ------------------------------------------------------------
+                                                                            
+
+Panthera_pardus -------------------------------ctcaartgtatattgaaacctccattttg
+Panthera_uncia  -------------------------------ctcaaatgtatattgaaacctccattttg
+Panthera        -------------------------------ctcaagtgtatattgaaacctccattttg
+Neofelis_nebulo -------------------------------ctcaagtgtatattgaaacctccattttg
+Panthera_tigris -------------------------------ctcaagtgtatattgaaacctccattttg
+Prionailurus_be -------------------------------ctcaagtgtatattgaaacctccattttg
+Felis_catus     -------------------------------ctcaagtgtatattgaaacctccattttg
+Felis_bieti     -------------------------------ctcaagtgtatattgaaacctccattttg
+Lynx_lynx       -------------------------------ctcaagtgtatattgaaacctccattttg
+Otocolobus_manu acgcccaaccgactgcgccacccaggcgcccctcaagtgtatattgaaacctccattttg
+Catopuma_temmin -------------------------------ctcaagtgtatattgaaacctccattttg
+Paguma_larvata  -------------------------------ctaacgtgtatattgaagcctccgttttg
+                                               ** *  ***********.*****.*****
+
+Panthera_pardus ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Panthera_uncia  ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Panthera        ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Neofelis_nebulo ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Panthera_tigris ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Prionailurus_be ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Felis_catus     ttttccagggttctctaacactgaggcggctgaaagctctca--tgtcagtttaaagaaa
+Felis_bieti     ttttccagggttctctaacactgaggcggctgaaagctctca--tgtcagtttaaagaaa
+Lynx_lynx       ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Otocolobus_manu ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Catopuma_temmin ttttccagggttctctaacactgaggcggctgaaagctgtca--tgtcagtttaaagaaa
+Paguma_larvata  ttttccagggttctctaattctaagggaggtaaaggctgtcatttgtcagtctaaagaca
+                ******************. **.*** .* *.**.*** ***  *******.****** *
+
+Panthera_pardus caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Panthera_uncia  caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Panthera        caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Neofelis_nebulo caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Panthera_tigris caaatacaggtggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Prionailurus_be caaatacagatggacttgtcacataggcccaattctctccctttcttgctgtagggcagg
+Felis_catus     caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Felis_bieti     caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Lynx_lynx       caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Otocolobus_manu caaatacagatggacttgtcacataggcccagttctctccctttcttgctgtagggcagg
+Catopuma_temmin caaatacagatggacttgtcacataggcccagttctctccctttcttgttgtagggcagg
+Paguma_larvata  caaatatagatgaacttgtcacacaggcccagctgtctccttttcttgttataggacagg
+                ******.**.**.**********.*******..* *****.*******.*.****.****
+
+Panthera_pardus gaagacattttgtgtgctagtgtgactttgcttacagaaccagcgtataacttgaaggat
+Panthera_uncia  gaagacattttgtgtgctagtgtgactttgcttacagaaccagcgtataacttgaaggat
+Panthera        gaagacattttgtgtgctagtgtgactttgcttacagaaccagcgtataacttgaaggat
+Neofelis_nebulo gaagacattttgcgtgctagtgtgactttgcttacagaaccagcgtataacttgaaggat
+Panthera_tigris gaagacattttgcctactagtgtgattttactcacagaaccagcgtataacatgaaggat
+Prionailurus_be gaagacattttgcgtactagtgtgactttacttacagaaccagcgtataacttgaaggat
+Felis_catus     gaagacattttgagtactagtgtgactttacttacagaaccagcgtataacttgaaggat
+Felis_bieti     gaagacattttgagtactagtgtgactttacttacagaaccagcgtataacttgaaggat
+Lynx_lynx       gaagacattttgcgtactagtgtgactttacttacagaaccagcgtataacttcaaggat
+Otocolobus_manu gaagacattttgcgtactagtgtgactttacttacagaaccagcatataacttcaaggat
+Catopuma_temmin gaagacattttgcgtactagtgtgactttacttacagaaccagcgtataacttcaaggat
+Paguma_larvata  gaagacattttgtgtattagtgcgacgttacttttagaatcagaacgtaacgtgaaacac
+                ************  *..*****.**. **.**. .****.*** ...**** * **. *.
+
+Panthera_pardus cactgtatgcagcactcttctgagggcactttgcaaagaatttacttgacggcaccgcag
+Panthera_uncia  cactgtatgcagcactcttctgagggcactttgcaaagaatttacttgacggcaccgcag
+Panthera        cactgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggcaccgcag
+Neofelis_nebulo cactgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggcaccgcag
+Panthera_tigris cactgtatgcagcactcttctgcgggcactttgcaaagaatttacttgacggcaccgcag
+Prionailurus_be ccctgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggccctgcag
+Felis_catus     ccctgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggccctgcag
+Felis_bieti     ccctgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggccctgcag
+Lynx_lynx       ccctgtacacagtactcttctgagggcactttgcaaagaatttacttgacggccctgcag
+Otocolobus_manu ccctgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggccctgcag
+Catopuma_temmin ccctgtacgcagcactcttctgagggcactttgcaaagaatttacttgacggccctgcag
+Paguma_larvata  cactgtacacagcactcttctgaggttactttgcacagaattaacttgacagaactgcag
+                * *****..***.********* ** .******** ****** *******.*  *.****
+
+Panthera_pardus ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaaacag
+Panthera_uncia  ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaaacag
+Panthera        ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaaacag
+Neofelis_nebulo ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaaacag
+Panthera_tigris ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaaacag
+Prionailurus_be ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaagcag
+Felis_catus     ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaagcag
+Felis_bieti     ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaagcag
+Lynx_lynx       ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaagcag
+Otocolobus_manu ttctaataaccccaaacattttctttcaggataactgcagatcccaaaaagcag
+Catopuma_temmin ttctaataaccccaaacattttctttcaggataactgcagatcctaaaaaacag
+Paguma_larvata  ttctaataaccccaaatattttcttttaggataactgcagatcccagaaaacag
+                ****************.*********.*****************.*.***.***

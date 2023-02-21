@@ -1,0 +1,242 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.490)
+
+
+Panthera_pardus gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Panthera_leo    gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Panthera_uncia  gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Neofelis_nebulo gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Catopuma_temmin ----------------cctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Prionailurus_be gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaagg
+Felis_catus     gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Felis_silvestri gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Felis_bieti     gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Otocolobus_manu gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Lynx_lynx       gatgaagtagaagggccctctcccagctctgccagtcagcttgtgttactaggacaaggg
+Panthera_tigris ----------------cctctcccaactctgccagtcagcttgtgttactaggacaaggg
+Crocuta_crocuta gatgacacagaggtgccttctctcagctctgccagccggcttgtgttactaggagaaggg
+Paguma_larvata  gatgaagtagaagtgccttctctcagcactgccagccagcttgtgttactaggacaaggg
+                                *.****.**.* *******.*.**************** **.**
+
+Panthera_pardus tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Panthera_leo    tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Panthera_uncia  tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Neofelis_nebulo tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Catopuma_temmin tacccagcatcgacttttaaatatcatcrattcaaactgcaaaatgaatgaagttctgca
+Prionailurus_be tacccagcatcaacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Felis_catus     tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Felis_silvestri tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Felis_bieti     tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Otocolobus_manu tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Lynx_lynx       tacccaggatcggcttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Panthera_tigris tacccagcatcgacttttaaatatcatcgattcaaactgcaaaatgaatgaagttctgca
+Crocuta_crocuta tacccagcatcgacttttaaataccatcgagtcaaactgcaaaatgaatgaagttctgca
+Paguma_larvata  tgcccagcatcgacttttaaacatcatcgatttgaactgcaaaatgaatgaagttctgca
+                *.***** ***..********.*.**** * *..**************************
+
+Panthera_pardus gagctcactgacctggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Panthera_leo    gagctcactgacctggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Panthera_uncia  gagctcactgacctggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Neofelis_nebulo gagctcactgacctggagcttggaccctgggtgctccctactatagctttggtgcactgg
+Catopuma_temmin gagctcactgacctggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Prionailurus_be gagctcactgacctggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Felis_catus     gagctcactgacctggaccttggaccctgggtgctccccactatagctttggtgcactgg
+Felis_silvestri gagctcactgacctggaccttggaccctgggtgctccccactatagctttggtgcactgg
+Felis_bieti     gagctcactgacctggaccttggaccctgggtgctccccactatagctttggtgcactgg
+Otocolobus_manu gagctcactgaactggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Lynx_lynx       gagctcactgacctggagcttggaccctgggtgctccccactatagctttggttcactgg
+Panthera_tigris gagctcactgacctggagcttggaccctgggtgctccccactatagctttggtgcactgg
+Crocuta_crocuta gagctcactgatctggagcttggaccctgggtgctccccactatagcttcggtgcactga
+Paguma_larvata  gagctccctgccccggagcttggaccytgggttctcttcactatagcttcggtgcactgg
+                ****** ***  *.*** ******** ***** ***...**********.*** *****.
+
+Panthera_pardus gtttacagtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataaaaata
+Panthera_leo    gtttacagtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataaaaata
+Panthera_uncia  gtttacagtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataaaaata
+Neofelis_nebulo gtttacggtgcctggctccttg-cctcaatttcctcgaatatacggtaggaataacaata
+Catopuma_temmin gtttacggtgcctggctccttg-cctcagtttcctcgaatatatggtaggaataacaata
+Prionailurus_be gtttacggtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataacaata
+Felis_catus     gtttacggtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataacaata
+Felis_silvestri gtttacggtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataacaata
+Felis_bieti     gtttacggtgcctggctccttg-cctcaatttcctcgaatatatggtaggaataacaata
+Otocolobus_manu gtttacggtgcccggctccttg-cctcaatttccttgaatatatgctaggaataacaata
+Lynx_lynx       gtttacggtgcctgcctccttg-gctcagtttcctcaaatatatggtaggaataacaata
+Panthera_tigris gtttacggtgccgggctccttg-cctcaatttcctcaaatatacggtaggaataacaata
+Crocuta_crocuta gtttaccgtgcctgactcctgc-cctcaatgtgctcgagtatgtggtagaaataaagata
+Paguma_larvata  gtttacygcgcctgactccttgccctcaatgtcctcgaatatatggtagaaataaagata
+                ****** *.*** * *****    ****.* * **..*.***..* ***.***** .***
+
+Panthera_pardus tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Panthera_leo    tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Panthera_uncia  tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Neofelis_nebulo tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Catopuma_temmin tgatattcatgaagctaccaatattgcgttgtcagacgtgcatccttttataaagtttat
+Prionailurus_be tgatattcatgaagctaccaatattgcgttgtcagacgtgcatccttttataaagtttat
+Felis_catus     tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Felis_silvestri tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Felis_bieti     tgatattcatgaagctaccaatattgcgttgtcagatgtgcatccttttataaagtttat
+Otocolobus_manu tgatattcatgaagctaccaatattgcgttgtcagacgtgcatccttttataaagtttat
+Lynx_lynx       tgatattcatgaagctaccaatattgcgttgtcagacatgcatccttttataaagtttat
+Panthera_tigris tgatattcatgaagctaccgatattgcattgtcagatgtgcatccttttataaagtttat
+Crocuta_crocuta tgatattcattaagctaccaatattacgttttcagaaatacttccttttataaggtttat
+Paguma_larvata  tgatattcatgaagctaccaatattacattttcagaaatgcgtccttttataaagtttat
+                ********** ********.*****.*.** ***** .*.* ***********.******
+
+Panthera_pardus ttcccttcagctcatcaaaatgtatctatggattaatctctgaagggctgggtggacaac
+Panthera_leo    ttcccttcagctcatcaaaatgtatctatggattaatctctgaagggctgggtggacaac
+Panthera_uncia  ttcccttcagctcatcaaaatgtatctatggattaatctctgaagggctgggtggacaac
+Neofelis_nebulo ttcccttcagctcatcaaaatgtatctatggattaatctctgaaaggctgggtggacaac
+Catopuma_temmin ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Prionailurus_be ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Felis_catus     ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Felis_silvestri ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Felis_bieti     ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Otocolobus_manu ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Lynx_lynx       ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Panthera_tigris ttcccttcagctcatcaaaatgtatctattgattaatctctgaaaggctgggtggacaac
+Crocuta_crocuta ttcccttcagctaaccaaaatgtgtctattgattcagctctgaaaggctgggtggacaac
+Paguma_larvata  ttcccttcggctaatcaaaatatatctgttgattaatcttcgaaaggctgggcgg---ac
+                ********.*** *.******.*.***.* **** * **..***.*******.**   **
+
+Panthera_pardus attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Panthera_leo    attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Panthera_uncia  attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Neofelis_nebulo attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Catopuma_temmin attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Prionailurus_be attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Felis_catus     attctagtcgaatactgaatgcttaagtcctctagaggaattaactaatactataaaatg
+Felis_silvestri attctagtcgaatactgaatgcttaagtcctctagaggaattaactaatactataaaatg
+Felis_bieti     attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Otocolobus_manu attctagtcgaatactgaatgcttaagtcctttagaagaattaactaatactataaaatg
+Lynx_lynx       attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Panthera_tigris attctagtcgaatactgaatgcttaagtcctctagaagaattaactaatactataaaatg
+Crocuta_crocuta attctagtcaaatactgaattcttaagtcctctagaagaattaattaatactataaaatg
+Paguma_larvata  attctagccraatactgaattcttaagtcctctagaagaattaactaatactataaaatg
+                *******.* ********** **********.****.*******.***************
+
+Panthera_pardus catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Panthera_leo    catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Panthera_uncia  catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Neofelis_nebulo catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Catopuma_temmin catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Prionailurus_be catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Felis_catus     catccttaagtagtc-gacattattttccaaccagtaagagggaattactacaacagcag
+Felis_silvestri catccttaagtagtc-gacattattttccaaccagtaagagggaattactacaacagcag
+Felis_bieti     catccttaagtagtc-gacattattttccaaccagtaagagggaattactacaacagcag
+Otocolobus_manu catccttaagtagtc-aacattattttacaaccagtaagagggaattactacaacagcag
+Lynx_lynx       catccttaagcagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Panthera_tigris catccttaagtagtc-gacattattttacaaccagtaagagggaattactacaacagcag
+Crocuta_crocuta catcctgaagtagtctgacattattttacagctagtaacagggaattactacagcagcag
+Paguma_larvata  catcctgaagtagtctgacattgttttacaactagtaagagggaattactacagcagcat
+                ****** ***.**** .*****.**** **.*.***** **************.***** 
+
+Panthera_pardus ctgactaaaacattctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Panthera_leo    ctgactaaaacattctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Panthera_uncia  ctgactaaaacattctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Neofelis_nebulo ctgactaaaacattctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Catopuma_temmin ctgactaaaacgttctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Prionailurus_be ctgactaaaacgttctcaggaaaaacaagctatttggtcctatggcacattgcatctttt
+Felis_catus     ctgactaaaacgttctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Felis_silvestri ctgactaaaacgttctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Felis_bieti     ctgactaaaacgttctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Otocolobus_manu ctgactaaaacgttctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Lynx_lynx       ctgactaaaacgttctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Panthera_tigris ctgactaaaacattctcaggaaaaacaagctatttggtcctgtggcacattgcatctttt
+Crocuta_crocuta ctgactaaaatgttctcaggaaaaacaaactatttggtcctgtggcacattgcatctttt
+Paguma_larvata  ctgactaaaatgttctcaggaaaaacaaactgcttggtcctgtgacacattgcatctttt
+                **********..****************.**..********.**.***************
+
+Panthera_pardus tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Panthera_leo    tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Panthera_uncia  tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Neofelis_nebulo tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Catopuma_temmin tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Prionailurus_be tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Felis_catus     tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Felis_silvestri tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Felis_bieti     tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Otocolobus_manu tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Lynx_lynx       tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Panthera_tigris tagtaact------------------ccactcaaatggcaaggcttaacaaagcaactgt
+Crocuta_crocuta tagtaattccactaaattccacattgccactcaaatggcaatgcttaacacagcaccagt
+Paguma_larvata  tagtaatt------------------ccactcaaatggcaaggcttaacaaagcaactgt
+                ******.*                  *************** ******** **** * **
+
+Panthera_pardus tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Panthera_leo    tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Panthera_uncia  tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Neofelis_nebulo tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Catopuma_temmin tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Prionailurus_be tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Felis_catus     tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Felis_silvestri tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Felis_bieti     tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Otocolobus_manu tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Lynx_lynx       tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Panthera_tigris tctcagagggcctattttctcctttaaaattcattatacatgttccaggtcgatggcagc
+Crocuta_crocuta tctcagagggcctgttttctcccttaaaattcattacacgagttccaggtcgatcgctgc
+Paguma_larvata  tctcagagggccttttttctcccttaaaattcattatacatgtt-taggtcgatcgcggc
+                ************* ********.*************.**. *** .******** ** **
+
+Panthera_pardus atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Panthera_leo    atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Panthera_uncia  atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Neofelis_nebulo atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Catopuma_temmin atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Prionailurus_be atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Felis_catus     atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Felis_silvestri atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Felis_bieti     atgtccggaggcagaaaccagtctttc-ttgggaacaatcatgtctgtgttatatactga
+Otocolobus_manu atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Lynx_lynx       atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Panthera_tigris atgtccggaggcagaaaccagtctttctttgggaacaatcatgtctgtgttatatactga
+Crocuta_crocuta atgtccgggggccgaaaccagtcttgctttgggaacaatcatgtctgtgt--tatactga
+Paguma_larvata  ttgtccggaggcagaagccagtcttgctatgggagcaatcntgtctgtgt--tatactgc
+                 *******.*** ***.******** *  *****.***** *********  ******* 
+
+Panthera_pardus gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Panthera_leo    gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Panthera_uncia  gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Neofelis_nebulo gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Catopuma_temmin gaaggggagctcattaaatgtcaacacttacaatgcaggaaatggacttggcatggactt
+Prionailurus_be gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Felis_catus     gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Felis_silvestri gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Felis_bieti     gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Otocolobus_manu gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Lynx_lynx       gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Panthera_tigris gaaggggagctcattaactgtcaacacttacaatgctggaaatggacttggcatggactt
+Crocuta_crocuta gcaggggagctcactaactgtcgacattcacattgctgaaaatggagttggcatggactt
+Paguma_larvata  gaaggggagctcattatctgncaacacttacattgctgcaaatgnactcagcctggacct
+                * ***********.**  ** *.***.*.*** *** * ***** * *..** *****.*
+
+Panthera_pardus cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Panthera_leo    cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Panthera_uncia  cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Neofelis_nebulo cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Catopuma_temmin cttgccttgttccagatttctaacaccataaagaacagctc-------------------
+Prionailurus_be cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Felis_catus     cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Felis_silvestri cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Felis_bieti     cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Otocolobus_manu cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Lynx_lynx       cttgccttgttccagatttctaacaccataaagaacagctcctttcactcttaaccagtt
+Panthera_tigris cttgccttgttccagatttctaacacca-aaagaacagctcc------------------
+Crocuta_crocuta cttgccttgttccagatttctaacaccataaagaacagatcctttcactcttaaccagtt
+Paguma_larvata  cttgccttgttccagatttctaaca------------gatcctttcact-----------
+                *************************            * **                   
+
+Panthera_pardus ttgttgacctcttactggt
+Panthera_leo    ttgttgacctcttactggt
+Panthera_uncia  ttgttgacctcttactggt
+Neofelis_nebulo ttgttgacctcttactggt
+Catopuma_temmin -------------------
+Prionailurus_be ttgttgacctcttactggt
+Felis_catus     ttgttgacctcttactggt
+Felis_silvestri ttgttgacctcttactggt
+Felis_bieti     ttgttgacctcttactggt
+Otocolobus_manu ttgttgacctcttactggt
+Lynx_lynx       ttgttgacctcttactg--
+Panthera_tigris -------------------
+Crocuta_crocuta ttgttgacctctcactggt
+Paguma_larvata  ----------------ggt
+                                   
