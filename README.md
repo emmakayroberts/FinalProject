@@ -13,7 +13,7 @@ Data Description:
 20Feb2023
 Aligned Data today!
 Used mafft for alignment
-aligned all .txt files from "Desktop/FinalProject/Data
+aligned all .txt files from Desktop/FinalProject/Data (without "output" in their title)
 to align in the terminal:
     1. locate the working folder
     2. type in "mafft" and enter
@@ -22,4 +22,19 @@ to align in the terminal:
     5. selected "1" for "Clustal format" as output format
     6. selected "1" for "auto" as strategy
     7. left additional arguments blank
-repeated for each gene txt file
+repeated for each gene .txt file
+
+
+21Feb2023
+Aligned Data today part 2!
+aligned all .txt files from Desktop/FinalProject/Data (without "output" in their title)
+to align in the terminal:
+    1. locate the working folder
+    2. type in "clustalw" and enter
+    3. select "1"
+    4. insert file name, make sure it contains ".txt" or it won't work
+    5. select  "2" 
+    6. select "1"
+    7. type in output name
+    8. enter until it is done! 
+repeated for each .txt file
