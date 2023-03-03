@@ -38,3 +38,61 @@ to align in the terminal:
     7. type in output name
     8. enter until it is done! 
 repeated for each .txt file
+
+
+
+
+02Mar2023
+Distance and Parsimony Trees
+converted .txt files of aligned data to .fasta files from phylip to fasta format
+used terminal with function cp "file_name.txt" "file_name.fasta"
+Then can use following functions in R to obtain distance trees with .fasta file of data:
+1) Installing necessary packages:
+install.packages("adegenet", dep=TRUE)
+install.packages("phangorn", dep=TRUE)
+
+2) Loading the packages
+library(ape)
+library(adegenet)
+library(phangorn)
+
+3) Loading the sample data
+dna <- fasta2DNAbin(file="http://adegenet.r-forge.r-project.org/files/usflu.fasta")
+
+4) Computing the genetic distances. They choose a Tamura and Nei 1993 model which allows for different rates of transitions and transversions, heterogeneous base frequencies, and between-site variation of the substitution rate (more on Models of Evolution).
+D <- dist.dna(dna, model="TN93")
+
+5) Get the NJ tree
+tre <- nj(D)
+
+6) Before plotting, we can use the ladderize function which reorganizes the internal structure of the tree to get the ladderized effect when plotted
+tre <- ladderize(tre)
+
+7) We can plot the tree
+plot(tre, cex=.6)
+title("A simple NJ tree")
+
+Then can use following functions in R to obtain parsimony trees with .fasta file of data:
+1) Installing necessary packages (if you have not installed them for the distance section above)
+install.packages("adegenet", dep=TRUE)
+install.packages("phangorn", dep=TRUE)
+
+2) Loading
+library(ape)
+library(adegenet)
+library(phangorn)
+
+3) Loading the sample data and convert to phangorn object:
+dna <- fasta2DNAbin(file="http://adegenet.r-forge.r-project.org/files/usflu.fasta")
+dna2 <- as.phyDat(dna)
+
+4) We need a starting tree for the search on tree space and compute the parsimony score of this tree (422)
+tre.ini <- nj(dist.dna(dna,model="raw"))
+parsimony(tre.ini, dna2)
+
+5) Search for the tree with maximum parsimony:
+> tre.pars <- optim.parsimony(tre.ini, dna2)
+Final p-score 420 after  2 nni operations
+
+6) Plot tree:
+plot(tre.pars, cex=0.6)
