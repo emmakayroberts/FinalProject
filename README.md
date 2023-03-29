@@ -96,3 +96,22 @@ Final p-score 420 after  2 nni operations
 
 6) Plot tree:
 plot(tre.pars, cex=0.6)
+
+
+
+28Mar2023
+
+I chose to use IQ-Tree for my project data set. IQ-Tree, according to Journal Article by Lam-Tung Nguyen, et al, is “a fast and sophisticated algorithm for finding ML trees. The core idea is to perform an efficient sampling of local optima in the tree space. Here, the best local optimum found represents the reported ML tree. To this end, we combine elements of hill-climbing algorithms, random perturbation of current best trees, and a board sampling of initial start trees.” 
+IQ-Tree has several strengths for why I chose it: IQTree2 has a number of features that reduce computational time (Ultrafast Bootstrap approximation, improved quartet likelihood mapping, etc), IQTree samples several starting trees and randomly perturbs trees during the hill climbing process to prevent the ML hill-climbing algorithm from getting “stuck” in local optima, IQTree uses a fast NNI hill climbing algorithm, faster than traditional NNI hill climbing algorithms (hence the name); IQTree2 implements non-time-reversible models, allowing for inference of rooted phylogenies. Lastly, IQ-Tree is highly versatile, with a lot of additional functionality added in IQTree2. 
+A few assumptions for IQ-Tree include: only samples local optima, assuming the top optima found represents the ideal tree; general time reversible model for nucleotide sequences; WAG (Whelan and Goldman) model for amino acids; and the assumed model can only generate unrooted trees, so IQ-TREE assumes alignments are always unrooted. 
+Additionally there are a few limitations of IQ-Tree: it primarily uses fast NNI, which is thought to produce less accurate trees than SPR. Stochastic NNI perturbations stop after a maximum number of 100 perturbations. Even with random sampled initial trees and perturbations, there is no guarantee that the output phylogeny represents the global optimum. 
+
+IQ-Tree Commands:
+
+Downloaded IQ-Tree software. 
+Confirmed successful installation: 
+Opened Terminal
+Go into IQ-TREE folder by entering:
+ cd Downloads/iqtree-1.6.12-MacOSX
+cd Dropbox/software/iqtree-1.6.12-MacOSXbin/iqtree -s NAMEOFFILE.phy
+Repeated for all files
