@@ -120,7 +120,7 @@ Repeated for all files
 
 
 
-08APR2023
+08APR2023 - Bayesian 
 
 I chose to run MrBayes for my project data set. MrBayes (Ronquist and Huelsenbeck 2003) “is a program for doing Bayesian phylogenetic analysis. The program uses Markov Chain Monte Carlo (MCMC) techniques to sample from the posterior probability distribution.” Some strengths of MrBayes are:  highly customizable, and allows users to set heating parameters for heated chains, choose between most commonly accepted models of nucleic acid evolution, and even unlink branch length and topology parameters. A potential weakness of MrBayes could be that, “Since there are more parameters in the mixed model, one visits each parameter more rarely and this is likely to lead to slower mixing and a need to run the chain longer before an adequate sample of the posterior distribution is obtained.” 
 
