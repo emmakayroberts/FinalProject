@@ -115,3 +115,35 @@ Go into IQ-TREE folder by entering:
  cd Downloads/iqtree-1.6.12-MacOSX
 cd Dropbox/software/iqtree-1.6.12-MacOSXbin/iqtree -s NAMEOFFILE.phy
 Repeated for all files
+
+
+
+
+
+08APR2023
+
+I chose to run MrBayes for my project data set. MrBayes (Ronquist and Huelsenbeck 2003) “is a program for doing Bayesian phylogenetic analysis. The program uses Markov Chain Monte Carlo (MCMC) techniques to sample from the posterior probability distribution.” Some strengths of MrBayes are:  highly customizable, and allows users to set heating parameters for heated chains, choose between most commonly accepted models of nucleic acid evolution, and even unlink branch length and topology parameters. A potential weakness of MrBayes could be that, “Since there are more parameters in the mixed model, one visits each parameter more rarely and this is likely to lead to slower mixing and a need to run the chain longer before an adequate sample of the posterior distribution is obtained.” 
+
+
+MrBayes Commands: 
+Download
+brew tap brewsci/bio
+brew install mrbayes
+Put all data in nexus files
+Create a mrbayes block. Do this in a separate text file. Note that we need to add mcmc;sumt; at the end so that the mb block is executed. mcmc is the command to run MCMC and sumt is the command to obtain a summary tree.
+begin mrbayes;
+ set autoclose=yes;
+ prset brlenspr=unconstrained:exp(10.0);
+ prset shapepr=exp(1.0);
+ prset tratiopr=beta(1.0,1.0);
+ prset statefreqpr=dirichlet(1.0,1.0,1.0,1.0);
+ lset nst=2 rates=gamma ngammacat=4;
+ mcmcp ngen=10000 samplefreq=10 printfreq=100 nruns=1 nchains=3 savebrlens=yes; outgroup Anacystis_nidulans;
+ Mcmc;
+ Sumt;
+end;
+append the MrBayes block to the end of the nexus file with the dat
+cat DATAFILE.nex MBBLOCKFILE.txt > DATAFILE-mb.nex (insert names of “data” and “MbBlock files” given the names)
+run MrBayes:
+mb DATAFILE-mb.nex
+
