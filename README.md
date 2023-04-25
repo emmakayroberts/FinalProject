@@ -147,3 +147,20 @@ cat DATAFILE.nex MBBLOCKFILE.txt > DATAFILE-mb.nex (insert names of “data” a
 run MrBayes:
 mb DATAFILE-mb.nex
 
+
+
+25APR2023
+THE COALESCENT
+
+Astral is one of the methods to run a coalescent based tree. An advantage to Astral is that it can analyze datasets with up to 1000 taxa and 1000 genes with running times that are reasonable. Astral is also said to be more accurate than similar models and statistically consistent. A potential limitation here could be that the consistency of standard summary models assumes that the gene trees are estimated without error which can limit the relevance of consistency and is always something that is working to be improved upon. Some user choices for Astral are that the user has to provide bi-paritions from their input sets, as well as which form of Astral to run based on the data set size and makeup. 
+Paper: https://academic.oup.com/bioinformatics/article/31/12/i44/215524#394334969 
+
+There is no installation required to run ASTRAL.
+Just download from the zip file found in this link: https://github.com/smirarab/ASTRAL/blob/master/README.md#installation 
+
+We will next run ASTRAL on an input dataset. From the ASTRAL directory, run:
+
+java -jar astral.5.7.8.jar -i DATASET.gene.tre
+The results will be outputted to the standard output. To save the results in an output file use the -o option:
+
+java -jar astral.5.7.8.jar -i DATADET.gene.tre -o DATASET.tre
