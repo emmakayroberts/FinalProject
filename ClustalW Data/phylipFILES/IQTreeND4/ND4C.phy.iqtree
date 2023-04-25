@@ -1,0 +1,163 @@
+IQ-TREE 2.0.3 built Dec 19 2020
+
+Input file name: ND4C.phy
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 798410
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 13 sequences with 1368 nucleotide sites
+Number of constant sites: 848 (= 61.9883% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 848 (= 61.9883% of all sites)
+Number of parsimony informative sites: 362
+Number of distinct site patterns: 395
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+R2          -6360.618   12779.237 +   0.0623   12780.537 +   0.0661   12930.649 +    0.544
+TPM2+F+R2         -6358.163   12776.327 +    0.267   12777.718 +    0.271   12932.960 +    0.171
+TPM2u+F+R2        -6358.168   12776.335 +    0.266   12777.726 +     0.27   12932.968 +    0.171
+TPM3+F+R2         -6359.809   12779.617 +   0.0515   12781.008 +   0.0523   12936.250 -    0.033
+TPM3u+F+R2        -6359.811   12779.622 +   0.0514   12781.013 +   0.0521   12936.255 -    0.033
+K3Pu+F+R2         -6360.004   12780.008 -   0.0424   12781.399 -    0.043   12936.641 -   0.0272
+TN+F+R2           -6360.615   12781.230 -    0.023   12782.621 -   0.0233   12937.863 -   0.0148
+TIM2+F+R2         -6358.150   12778.300 +   0.0995   12779.785 +   0.0963   12940.154 -  0.00469
+TIM3+F+R2         -6359.801   12781.602 -   0.0191   12783.087 -   0.0185   12943.456 -   0.0009
+TIM+F+R2          -6359.995   12781.990 -   0.0157   12783.475 -   0.0152   12943.844 - 0.000742
+TVM+F+R2          -6357.494   12778.987 +   0.0706   12780.569 +   0.0651   12946.063 - 0.000245
+GTR+F+R2          -6357.486   12780.972 -   0.0262   12782.654 -   0.0229   12953.269 - 6.66e-06
+GTR+F+G4          -6367.712   12799.425 - 2.57e-06   12801.007 - 2.37e-06   12966.500 - 8.92e-09
+GTR+F+R3          -6356.970   12783.940 -  0.00593   12785.832 -  0.00468   12966.679 - 8.16e-09
+GTR+F+I           -6372.124   12808.249 - 3.12e-08   12809.831 - 2.88e-08   12975.324 - 1.08e-10
+GTR+F+I+G4        -6370.687   12807.375 - 4.83e-08   12809.057 - 4.24e-08   12979.671 - 1.23e-11
+TIM2e+R2          -6493.153   13042.306 - 4.67e-59   13043.519 - 5.18e-59   13188.497 - 5.55e-57
+SYM+R2            -6490.972   13041.944 -  5.6e-59   13043.336 - 5.68e-59   13198.578 - 3.59e-59
+TNe+R2            -6515.038   13084.077 - 3.97e-68   13085.205 -  4.6e-68   13225.046 - 6.42e-65
+TIMe+R2           -6512.916   13081.832 - 1.22e-67   13083.045 - 1.35e-67   13228.023 - 1.45e-65
+TIM3e+R2          -6514.669   13085.339 - 2.11e-68   13086.551 - 2.35e-68   13231.530 - 2.51e-66
+TVMe+R2           -6539.271   13136.542 - 1.61e-79   13137.843 - 1.71e-79   13287.954 -  1.4e-78
+K2P+R2            -6561.902   13175.803 -  4.8e-88   13176.850 - 5.78e-88   13311.552 - 1.06e-83
+K3P+R2            -6560.841   13175.683 -  5.1e-88   13176.811 -  5.9e-88   13316.652 - 8.24e-85
+GTR+F             -6908.815   13879.631 - 7.03e-241   13881.116 - 6.81e-241   14041.485 - 3.31e-242
+F81+F+R2          -7374.680   14805.359 -        0   14806.572 -        0   14951.550 -        0
+JC+R2             -7474.133   14998.265 -        0   14999.234 -        0   15128.793 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 40.3203
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 40.3203
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3225
+  pi(C) = 0.2816
+  pi(G) = 0.1183
+  pi(T) = 0.2776
+
+Rate matrix Q:
+
+  A   -0.5398   0.02852    0.4832   0.02811
+  C   0.03267    -1.178   0.01198     1.134
+  G     1.317   0.02852    -1.374   0.02811
+  T   0.03267      1.15   0.01198    -1.195
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.645,0.03194) (0.355,2.759)
+
+ Category  Relative_rate  Proportion
+  1         0.03194        0.645
+  2         2.759          0.355
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -6360.6118 (s.e. 147.8411)
+Unconstrained log-likelihood (without tree): -5039.2124
+Number of free parameters (#branches + #model parameters): 29
+Akaike information criterion (AIC) score: 12779.2236
+Corrected Akaike information criterion (AICc) score: 12780.5240
+Bayesian information criterion (BIC) score: 12930.6356
+
+Total tree length (sum of branch lengths): 2.1927
+Sum of internal branch lengths: 0.2718 (12.3957% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Panthera_pardus' is drawn at root
+
++--Panthera_pardus
+|
++--Panthera_uncia
+|
+|  +--Panthera_leo
++--|
+   |  +---Panthera_onca
+   +--|
+      |  +----Panthera_tigris
+      +--|
+         |  +----Neofelis_nebulosa
+         +--|
+            |        +--Lynx_lynx
+            |     +--|
+            |     |  |  +---Profelis_temminckii
+            |     |  +--|
+            |     |     +--Puma_concolor
+            |  +--|
+            |  |  |  +---Felis_bietia
+            |  |  +--|
+            |  |     |  +---Otocolobus_manul
+            |  |     +--|
+            |  |        +----Prionailurus_bengalensis
+            +--|
+               +-------------------------------------------------Paguma_larvata
+
+Tree in newick format:
+
+(Panthera_pardus:0.0031971005,Panthera_uncia:0.0028129817,(Panthera_leo:0.0329255864,(Panthera_onca:0.0836613503,(Panthera_tigris:0.1029740059,(Neofelis_nebulosa:0.1152138673,(((Lynx_lynx:0.0744709175,(Profelis_temminckii:0.0998992586,Puma_concolor:0.0721523332):0.0211222793):0.0069891602,(Felis_bietia:0.0889325459,(Otocolobus_manul:0.1023585869,Prionailurus_bengalensis:0.1079735086):0.0071159387):0.0173433350):0.0206654217,Paguma_larvata:1.0343384858):0.0768791469):0.0380528512):0.0112025923):0.0264496959):0.0459816120);
+
+TIME STAMP
+----------
+
+Date and time: Tue Apr 11 12:32:30 2023
+Total CPU time used: 1.12525 seconds (0h:0m:1s)
+Total wall-clock time used: 1.14384 seconds (0h:0m:1s)
+
