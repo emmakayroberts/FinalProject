@@ -42,6 +42,7 @@ ClustalW works to align DNA, RNA or protein sequences by aligning sequences pair
 
 aligned all .txt files from Desktop/FinalProject/Data (without "output" in their title)
 to align in the terminal:
+    
     1. locate the working folder
 
     2. type in "clustalw" and enter
@@ -132,12 +133,19 @@ Additionally there are a few limitations of IQ-Tree: it primarily uses fast NNI,
 
 IQ-Tree Commands:
 
+
 Downloaded IQ-Tree software. 
+
 Confirmed successful installation: 
+
 Opened Terminal
+
 Go into IQ-TREE folder by entering:
+
  cd Downloads/iqtree-1.6.12-MacOSX
+
 cd Dropbox/software/iqtree-1.6.12-MacOSXbin/iqtree -s NAMEOFFILE.phy
+
 Repeated for all files
 
 
@@ -149,25 +157,46 @@ Bayesian inference is a method of phylogenetic analysis that allows for the esti
 
 
 MrBayes Commands: 
+
 Download
+
 brew tap brewsci/bio
+
 brew install mrbayes
+
 Put all data in nexus files
+
 Create a mrbayes block. Do this in a separate text file. Note that we need to add mcmc;sumt; at the end so that the mb block is executed. mcmc is the command to run MCMC and sumt is the command to obtain a summary tree.
+
 begin mrbayes;
+
  set autoclose=yes;
+
  prset brlenspr=unconstrained:exp(10.0);
+
  prset shapepr=exp(1.0);
+
  prset tratiopr=beta(1.0,1.0);
+
  prset statefreqpr=dirichlet(1.0,1.0,1.0,1.0);
+
  lset nst=2 rates=gamma ngammacat=4;
- mcmcp ngen=10000 samplefreq=10 printfreq=100 nruns=1 nchains=3 savebrlens=yes; outgroup Anacystis_nidulans;
+
+ mcmcp ngen=10000 samplefreq=10 printfreq=100 nruns=1 nchains=3 savebrlens=yes; outgroup 
+ 
+ Anacystis_nidulans;
+ 
  Mcmc;
+ 
  Sumt;
+
 end;
+
 append the MrBayes block to the end of the nexus file with the dat
 cat DATAFILE.nex MBBLOCKFILE.txt > DATAFILE-mb.nex (insert names of “data” and “MbBlock files” given the names)
+
 run MrBayes:
+
 mb DATAFILE-mb.nex
 
 
