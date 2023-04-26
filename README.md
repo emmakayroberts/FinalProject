@@ -172,3 +172,7 @@ java -jar astral.5.7.8.jar -i DATASET.gene.tre
 The results will be outputted to the standard output. To save the results in an output file use the -o option:
 
 java -jar astral.5.7.8.jar -i DATADET.gene.tre -o DATASET.tre
+
+
+
+Final Paper read here: https://docs.google.com/document/d/12s1UK4_YL6GjTi_nZyEpFVIObcDtmfgotJD5NQo-R6E/edit
