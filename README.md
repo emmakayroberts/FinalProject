@@ -13,6 +13,8 @@ Data Description:
 20Feb2023
 Aligned Data today!
 Used mafft for alignment
+Mafft aligns DNA, RNA or protein sequences by aligning sequences pairwise and then combining them similarly to ClustalW. Mafft is said to be more efficient, scalable, and accurate than ClustalW though. Mafft was chosen given it is similar to ClustalW but thought to be just a bit better, and for this reason the trees being displayed later will be based around alignments derived from Mafft. However Mafft does still have limitations such as requiring computational time for large datasets, limited user support, and sensitivity to input sequences. Mafft also makes the following assumptions: no recombination events have taken place and that there are no indels in homologous regions. The Mafft software also includes some user choices. The user can alter specific alignment modes, gap penalties, scoring matrices, and sequence weightings (Katoh, 2002). 
+
 aligned all .txt files from Desktop/FinalProject/Data (without "output" in their title)
 to align in the terminal:
     1. locate the working folder
@@ -27,6 +29,9 @@ repeated for each gene .txt file
 
 21Feb2023
 Aligned Data today part 2!
+ClustalW works to align DNA, RNA or protein sequences by aligning sequences pairwise and then combining them. ClustalW requires the formation of a guide tree which aids in ordering the pairwise alignments. ClustalW was chosen partially due to the inability to properly download TCoffee and MUSCLE, but also because ClustalW is known to be fast, accurate, consistent, and easy to use. ClustalW does have some limitations though such as fewer customization options and the tendency to create gaps in the alignment. It factors in several assumptions that must be taken into consideration. ClustalW assumes that: the sequences are homologous, evolutionary events occur independently at each site, positions in the alignment have the same evolutionary importance, and sequence’s similarities are proportional to their evolutionary distance. The ClustalW software also includes some user choices. The user can alter the scoring matrix or gap penalties, and the user can choose a single or multiple iteration method (Thompson, 2004), (Larkin 2007). 
+
+
 aligned all .txt files from Desktop/FinalProject/Data (without "output" in their title)
 to align in the terminal:
     1. locate the working folder
@@ -44,6 +49,9 @@ repeated for each .txt file
 
 02Mar2023
 Distance and Parsimony Trees
+For distance, the software R package ape was used. Ape (Analysis of Phylogeneics and Evolution) is one of the most widely used phylogenetic softwares and has a large variety of functions. Ape useful as it is user friendly, free to all, customizable, and powerful. Ape was chosen as the distance software because it is the most widely used and there was no exposure to choose a different method for this section. Distance methods, including Ape, do have limitations such as the sole reliance on pairwise distance calculations so aspects like substitutions and mutations can have a lack of consideration. Additionally, the trees can only come out as good as the alignment, so if the alignment quality is poor, that poor quality will perpetuate through here. A big user choice for Ape and distance methods is the chosen distance metric, which can be a limitation if chosen poorly. Commonly used distance metrics include Jukes-Cantor, Kimura distance, and more. Lastly, distance methods are based on the assumption of the molecular clock. This hypothesis assumes that DNA and protein sequence evolve at a relatively constant rate over time which can often be untrue based on a variety of biological or environmental events. (Jombart, 2008). 
+For parsimony, the software R package Phangorn was used. Phangorn is another widely used phylogenetic software with a huge variety of functions. Phangorn can be useful for parsimony analyses as it is flexible, efficient, and includes functions to help visualize and interpret trees and results. Phangorn was chosen as the parsimony software because it is widely used and there was no exposure to choose a different method for this section. Phangorn does have some limitations. It can be computationally time consuming especially with large datasets. Additionally like with the distance methods, the quality here can only be as good as the quality of the initial alignment. Users of Phangorn can choose to alter weighing schemes, set the number of bootstrap replicates, and more that gets into specific attributes of speed, accuracy and complexity. There are a few essential assumptions that should be taken into account with parsimony methods and Phangorn. It is assumed that sequences change in a stepwise fashion. It is also assumed that sequences have a common origin and haven’t occurred because of parallel or convergent evolution. Additionally, it is assumed that different areas of the sequence evolved independently from other areas, however this can occur biologically. (Jombart, 2008). 
+
 converted .txt files of aligned data to .fasta files from phylip to fasta format
 used terminal with function cp "file_name.txt" "file_name.fasta"
 Then can use following functions in R to obtain distance trees with .fasta file of data:
@@ -122,7 +130,7 @@ Repeated for all files
 
 08APR2023 - Bayesian 
 
-I chose to run MrBayes for my project data set. MrBayes (Ronquist and Huelsenbeck 2003) “is a program for doing Bayesian phylogenetic analysis. The program uses Markov Chain Monte Carlo (MCMC) techniques to sample from the posterior probability distribution.” Some strengths of MrBayes are:  highly customizable, and allows users to set heating parameters for heated chains, choose between most commonly accepted models of nucleic acid evolution, and even unlink branch length and topology parameters. A potential weakness of MrBayes could be that, “Since there are more parameters in the mixed model, one visits each parameter more rarely and this is likely to lead to slower mixing and a need to run the chain longer before an adequate sample of the posterior distribution is obtained.” 
+Bayesian inference is a method of phylogenetic analysis that allows for the estimation of posterior probability distribution of trees based on the data and evolution model used. Bayesian methods also require the definition of a prior, a probability distribution that reflects the user's idea about the parameters of interest. The Bayesian software used was MrBayes. MrBayes was chosen because it was extremely user friendly and commands were given for us to run MrBayes with. MrBayes “uses Markov Chain Monte Carlo (MCMC) techniques to sample from the posterior probability distribution.” (Ronquist and Huelsenbeck 2003) Some strengths of MrBayes are that it is highly customizable, and allows users to set heating parameters for heated chains, choose between most commonly accepted models of nucleic acid evolution, and even unlink branch length and topology parameters. Potential limitations of MrBayes could be computational intensity, sensitivity to priors, and convergence and mixing issues, especially for complex datasets. Additionally there are several assumptions that should be taken into account when looking at results from MrBayes. MrBayes assumes that sequences follow the Markov process, that the tree is binary, the prior is appropriate, and that the rate of mutations is constant throughout the tree. 
 
 
 MrBayes Commands: 
