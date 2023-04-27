@@ -37,7 +37,9 @@ repeated for each gene .txt file
 
 
 ## ClustalW Alignment 
+
 21Feb2023
+
 ClustalW works to align DNA, RNA or protein sequences by aligning sequences pairwise and then combining them. ClustalW requires the formation of a guide tree which aids in ordering the pairwise alignments. ClustalW was chosen partially due to the inability to properly download TCoffee and MUSCLE, but also because ClustalW is known to be fast, accurate, consistent, and easy to use. ClustalW does have some limitations though such as fewer customization options and the tendency to create gaps in the alignment. It factors in several assumptions that must be taken into consideration. ClustalW assumes that: the sequences are homologous, evolutionary events occur independently at each site, positions in the alignment have the same evolutionary importance, and sequence’s similarities are proportional to their evolutionary distance. The ClustalW software also includes some user choices. The user can alter the scoring matrix or gap penalties, and the user can choose a single or multiple iteration method (Thompson, 2004), (Larkin 2007). 
 
 ## ClustalW Commands
