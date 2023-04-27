@@ -72,11 +72,12 @@ repeated for each .txt file
 For distance, the software R package ape was used. Ape (Analysis of Phylogeneics and Evolution) is one of the most widely used phylogenetic softwares and has a large variety of functions. Ape useful as it is user friendly, free to all, customizable, and powerful. Ape was chosen as the distance software because it is the most widely used and there was no exposure to choose a different method for this section. Distance methods, including Ape, do have limitations such as the sole reliance on pairwise distance calculations so aspects like substitutions and mutations can have a lack of consideration. Additionally, the trees can only come out as good as the alignment, so if the alignment quality is poor, that poor quality will perpetuate through here. A big user choice for Ape and distance methods is the chosen distance metric, which can be a limitation if chosen poorly. Commonly used distance metrics include Jukes-Cantor, Kimura distance, and more. Lastly, distance methods are based on the assumption of the molecular clock. This hypothesis assumes that DNA and protein sequence evolve at a relatively constant rate over time which can often be untrue based on a variety of biological or environmental events. (Jombart, 2008). 
 For parsimony, the software R package Phangorn was used. Phangorn is another widely used phylogenetic software with a huge variety of functions. Phangorn can be useful for parsimony analyses as it is flexible, efficient, and includes functions to help visualize and interpret trees and results. Phangorn was chosen as the parsimony software because it is widely used and there was no exposure to choose a different method for this section. Phangorn does have some limitations. It can be computationally time consuming especially with large datasets. Additionally like with the distance methods, the quality here can only be as good as the quality of the initial alignment. Users of Phangorn can choose to alter weighing schemes, set the number of bootstrap replicates, and more that gets into specific attributes of speed, accuracy and complexity. There are a few essential assumptions that should be taken into account with parsimony methods and Phangorn. It is assumed that sequences change in a stepwise fashion. It is also assumed that sequences have a common origin and haven’t occurred because of parallel or convergent evolution. Additionally, it is assumed that different areas of the sequence evolved independently from other areas, however this can occur biologically. (Jombart, 2008). 
 
+## Distance Commands 
+
 converted .txt files of aligned data to .fasta files from phylip to fasta format
 used terminal with function cp "file_name.txt" "file_name.fasta"
-
-## Distance Commands 
 Then can use following functions in R to obtain distance trees with .fasta file of data:
+
 1) Installing necessary packages:
 install.packages("adegenet", dep=TRUE)
 install.packages("phangorn", dep=TRUE)
@@ -103,12 +104,15 @@ plot(tre, cex=.6)
 title("A simple NJ tree")
 
 ## Parsimony Commands
+converted .txt files of aligned data to .fasta files from phylip to fasta format
+used terminal with function cp "file_name.txt" "file_name.fasta"
 Then can use following functions in R to obtain parsimony trees with .fasta file of data:
+
 1) Installing necessary packages (if you have not installed them for the distance section above)
 install.packages("adegenet", dep=TRUE)
 install.packages("phangorn", dep=TRUE)
 
-2) Loading
+2) Loading the packages
 library(ape)
 library(adegenet)
 library(phangorn)
